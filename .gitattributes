@@ -1,0 +1,2 @@
+# Prevent end-of-line normalization, and check out as is, commit as is.
+* -text
