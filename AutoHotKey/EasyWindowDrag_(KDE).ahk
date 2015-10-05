@@ -9,13 +9,13 @@
 ; and aurelian for a job well done.
 
 ; The shortcuts:
-;  Alt + Left Button  : Drag to move a window.
-;  Alt + Right Button : Drag to resize a window.
-;  Alt + Middle Button    : Close a window.
-;  Alt + WheelUp Button   : Maximize/Restore a window.
-;  Alt + WheelDown Button : Minimize a window.
+;  Win + Left Button  : Drag to move a window.
+;  Win + Right Button : Drag to resize a window.
+;  Win + Middle Button    : Close a window.
+;  Win + WheelUp Button   : Maximize/Restore a window.
+;  Win + WheelDown Button : Minimize a window.
 ;
-; You can optionally release Alt after the first
+; You can optionally release Win after the first
 ; click rather than holding it down the whole time.
 
 If (A_AhkVersion < "1.0.39.00")
@@ -34,7 +34,7 @@ SetWinDelay,2
 CoordMode,Mouse
 return
 
-!LButton::
+#LButton::
 ; Get the initial mouse position and window id, and
 ; abort if the window is maximized.
 MouseGetPos,KDE_X1,KDE_Y1,KDE_id
@@ -57,7 +57,7 @@ Loop
 }
 return
 
-!RButton::
+#RButton::
 ; Get the initial mouse position and window id, and
 ; abort if the window is maximized.
 MouseGetPos,KDE_X1,KDE_Y1,KDE_id
@@ -96,12 +96,12 @@ Loop
 }
 return
 
-!MButton::
+#MButton::
     MouseGetPos,,,KDE_id
     WinClose,ahk_id %KDE_id%
 return
 
-!WheelUp::
+#WheelUp::
     MouseGetPos,,,KDE_id
     ; Toggle between maximized and restored state.
     WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
@@ -111,7 +111,7 @@ return
         WinMaximize,ahk_id %KDE_id%
 return
 
-!WheelDown::
+#WheelDown::
     MouseGetPos,,,KDE_id
     ; This message is mostly equivalent to WinMinimize,
     ; but it avoids a bug with PSPad.
