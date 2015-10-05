@@ -1,30 +1,19 @@
-; Easy Window Dragging -- KDE style (requires XP/2k/NT) -- by Jonny
+; Easy Window Dragging -- KDE style (requires XP/2k/NT)
+; -- Original work by Jonny
+; -- Modified to fit into my personal needs
 ; http://www.autohotkey.com
-; This script makes it much easier to move or resize a window: 1) Hold down
-; the ALT key and LEFT-click anywhere inside a window to drag it to a new
-; location; 2) Hold down ALT and RIGHT-click-drag anywhere inside a window
-; to easily resize it; 3) Press ALT twice, but before releasing it the second
-; time, left-click to minimize the window under the mouse cursor, right-click
-; to maximize it, or middle-click to close it.
+; This script makes it much easier to move or resize a window.
 
 ; This script was inspired by and built on many like it
 ; in the forum. Thanks go out to ck, thinkstorm, Chris,
 ; and aurelian for a job well done.
 
-; Change history:
-; November 07, 2006: Optimized resizing code in !RButton, courtesy of bluedawn.
-; February 05, 2006: Fixed double-alt (the ~Alt hotkey) to work with latest versions of AHK.
-
-; The Double-Alt modifier is activated by pressing
-; Alt twice, much like a double-click. Hold the second
-; press down until you click.
-;
 ; The shortcuts:
 ;  Alt + Left Button  : Drag to move a window.
 ;  Alt + Right Button : Drag to resize a window.
-;  Double-Alt + Left Button   : Minimize a window.
-;  Double-Alt + Right Button  : Maximize/Restore a window.
-;  Double-Alt + Middle Button : Close a window.
+;  Alt + Middle Button    : Close a window.
+;  Alt + WheelUp Button   : Maximize/Restore a window.
+;  Alt + WheelDown Button : Minimize a window.
 ;
 ; You can optionally release Alt after the first
 ; click rather than holding it down the whole time.
@@ -46,15 +35,6 @@ CoordMode,Mouse
 return
 
 !LButton::
-If DoubleAlt
-{
-    MouseGetPos,,,KDE_id
-    ; This message is mostly equivalent to WinMinimize,
-    ; but it avoids a bug with PSPad.
-    PostMessage,0x112,0xf020,,,ahk_id %KDE_id%
-    DoubleAlt := false
-    return
-}
 ; Get the initial mouse position and window id, and
 ; abort if the window is maximized.
 MouseGetPos,KDE_X1,KDE_Y1,KDE_id
@@ -78,18 +58,6 @@ Loop
 return
 
 !RButton::
-If DoubleAlt
-{
-    MouseGetPos,,,KDE_id
-    ; Toggle between maximized and restored state.
-    WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
-    If KDE_Win
-        WinRestore,ahk_id %KDE_id%
-    Else
-        WinMaximize,ahk_id %KDE_id%
-    DoubleAlt := false
-    return
-}
 ; Get the initial mouse position and window id, and
 ; abort if the window is maximized.
 MouseGetPos,KDE_X1,KDE_Y1,KDE_id
@@ -128,22 +96,24 @@ Loop
 }
 return
 
-; "Alt + MButton" may be simpler, but I
-; like an extra measure of security for
-; an operation like this.
 !MButton::
-If DoubleAlt
-{
     MouseGetPos,,,KDE_id
     WinClose,ahk_id %KDE_id%
-    DoubleAlt := false
-    return
-}
 return
 
-; This detects "double-clicks" of the alt key.
-~Alt::
-DoubleAlt := A_PriorHotKey = "~Alt" AND A_TimeSincePriorHotkey < 400
-Sleep 0
-KeyWait Alt  ; This prevents the keyboard's auto-repeat feature from interfering.
+!WheelUp::
+    MouseGetPos,,,KDE_id
+    ; Toggle between maximized and restored state.
+    WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
+    If KDE_Win
+        WinRestore,ahk_id %KDE_id%
+    Else
+        WinMaximize,ahk_id %KDE_id%
+return
+
+!WheelDown::
+    MouseGetPos,,,KDE_id
+    ; This message is mostly equivalent to WinMinimize,
+    ; but it avoids a bug with PSPad.
+    PostMessage,0x112,0xf020,,,ahk_id %KDE_id%
 return
