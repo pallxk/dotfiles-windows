@@ -35,12 +35,12 @@ CoordMode,Mouse
 return
 
 #LButton::
-; Get the initial mouse position and window id, and
-; abort if the window is maximized.
+; Get the initial mouse position and window id.
 MouseGetPos,KDE_X1,KDE_Y1,KDE_id
 WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
+; Restore the window if it's maximized.
 If KDE_Win
-    return
+    WinRestore,ahk_id %KDE_id%
 ; Get the initial window position.
 WinGetPos,KDE_WinX1,KDE_WinY1,,,ahk_id %KDE_id%
 Loop
