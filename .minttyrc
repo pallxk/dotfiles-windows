@@ -1,0 +1,8 @@
+BoldAsColour=yes
+BoldAsFont=yes
+CursorType=block
+Font=Consolas
+FontHeight=12
+Scrollbar=none
+Term=xterm-256color
+ZoomShortcuts=no
