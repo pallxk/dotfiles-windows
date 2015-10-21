@@ -31,7 +31,7 @@ WheelRight::Browser_Forward
 #^XButton2::Send {Blind}{Right}
 
 
-; Filco Minila style key mapping
+; Filco Minila style key mapping (Fn -> CapsLock)
 CapsLock & `::Send {Blind}{Esc}
 CapsLock & 1::Send {Blind}{F1}
 CapsLock & 2::Send {Blind}{F2}
@@ -64,3 +64,39 @@ CapsLock & ,::Send {Blind}{End}
 CapsLock & .::Send {Blind}{PgDn}
 
 CapsLock & `;::Send {Blind}{Bs}
+
+; Filco Minila style key mapping (Fn -> AppsKey)
+AppsKey::Send {Blind}{AppsKey}  ; Required to fire itself when pressed alone
+
+AppsKey & `::Send {Blind}{Esc}
+AppsKey & 1::Send {Blind}{F1}
+AppsKey & 2::Send {Blind}{F2}
+AppsKey & 3::Send {Blind}{F3}
+AppsKey & 4::Send {Blind}{F4}
+AppsKey & 5::Send {Blind}{F5}
+AppsKey & 6::Send {Blind}{F6}
+AppsKey & 7::Send {Blind}{F7}
+AppsKey & 8::Send {Blind}{F8}
+AppsKey & 9::Send {Blind}{F9}
+AppsKey & 0::Send {Blind}{F10}
+AppsKey & -::Send {Blind}{F11}
+AppsKey & =::Send {Blind}{F12}
+
+AppsKey & e::Send {Blind}{Up}
+AppsKey & s::Send {Blind}{Left}
+AppsKey & d::Send {Blind}{Down}
+AppsKey & f::Send {Blind}{Right}
+
+AppsKey & i::Send {Blind}{PrintScreen}
+AppsKey & o::Send {Blind}{ScrollLock}
+AppsKey & p::Send {Blind}{Pause}
+
+AppsKey & j::Send {Blind}{Ins}
+AppsKey & k::Send {Blind}{Home}
+AppsKey & l::Send {Blind}{PgUp}
+
+AppsKey & m::Send {Blind}{Del}
+AppsKey & ,::Send {Blind}{End}
+AppsKey & .::Send {Blind}{PgDn}
+
+AppsKey & `;::Send {Blind}{Bs}
