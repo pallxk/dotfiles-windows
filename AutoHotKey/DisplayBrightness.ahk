@@ -1,6 +1,6 @@
 #NoEnv
 GetDisplayBrightness(Minimum, Current, Maximum) ; aktuelle Einstellungen abrufen
-MsgBox, 0, Bildschirmhelligkeit, Minimum = %Minimum%`nAktuell = %Current%`nMaximum = %Maximum%
+;MsgBox, 0, Bildschirmhelligkeit, Minimum = %Minimum%`nAktuell = %Current%`nMaximum = %Maximum%
 Return
 ; ======================================================================================================================
 ; Helligkeit erhöhen mit Shift+Ctrl++
