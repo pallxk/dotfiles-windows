@@ -3,8 +3,8 @@ GetDisplayBrightness(Minimum, Current, Maximum) ; aktuelle Einstellungen abrufen
 ;MsgBox, 0, Bildschirmhelligkeit, Minimum = %Minimum%`nAktuell = %Current%`nMaximum = %Maximum%
 Return
 ; ======================================================================================================================
-; Helligkeit erhöhen mit Shift+Ctrl++
-+^+::
+; Helligkeit erhöhen mit Shift+Win+Alt+PgUp
++#!PgUp::
 If (Current < Maximum) {
    Current++
    SetDisplayBrightness(Current)
@@ -13,8 +13,8 @@ If (Current < Maximum) {
 }
 Return
 ; ======================================================================================================================
-; Helligkeit verringern mit Shift+Ctrl+-
-+^-::
+; Helligkeit verringern mit Shift+Win+Alt+PgDn
++#!PgDn::
 If (Current > Minimum) {
    Current--
    SetDisplayBrightness(Current)
