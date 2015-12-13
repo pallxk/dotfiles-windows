@@ -63,6 +63,7 @@ CapsLock & m::Send {Blind}{Del}
 CapsLock & ,::Send {Blind}{End}
 CapsLock & .::Send {Blind}{PgDn}
 
+CapsLock & h::Send {Blind}{Bs}  ; Mimic ^H in shells
 CapsLock & `;::Send {Blind}{Bs}
 
 ; Filco Minila style key mapping (Fn -> AppsKey)
@@ -99,4 +100,5 @@ AppsKey & m::Send {Blind}{Del}
 AppsKey & ,::Send {Blind}{End}
 AppsKey & .::Send {Blind}{PgDn}
 
+AppsKey & h::Send {Blind}{Bs}   ; Mimic ^H in shells
 AppsKey & `;::Send {Blind}{Bs}
