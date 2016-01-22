@@ -9,10 +9,10 @@
 ; and aurelian for a job well done.
 
 ; The shortcuts:
-;  Win + Left Button  : Drag to move a window.
+;  Win + Left Button  : Drag to move a window. Click to restore a window.
 ;  Win + Right Button : Drag to resize a window.
 ;  Win + Middle Button    : Close a window.
-;  Win + WheelUp Button   : Maximize/Restore a window.
+;  Win + WheelUp Button   : Maximize a window.
 ;  Win + WheelDown Button : Minimize a window.
 ;
 ; You can optionally release Win after the first
@@ -103,11 +103,10 @@ return
 
 #WheelUp::
     MouseGetPos,,,KDE_id
+    ; Maximize the window if not already.
     ; Toggle between maximized and restored state.
     WinGet,KDE_Win,MinMax,ahk_id %KDE_id%
-    If KDE_Win
-        WinRestore,ahk_id %KDE_id%
-    Else
+    If ! KDE_Win
         WinMaximize,ahk_id %KDE_id%
 return
 
