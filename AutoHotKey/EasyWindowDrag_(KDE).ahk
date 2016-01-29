@@ -18,6 +18,8 @@
 ; You can optionally release Win after the first
 ; click rather than holding it down the whole time.
 
+#Include *i include/TrayIconOnCapsLock.ahk
+
 If (A_AhkVersion < "1.0.39.00")
 {
     MsgBox,20,,This script may not work properly with your version of AutoHotkey. Continue?

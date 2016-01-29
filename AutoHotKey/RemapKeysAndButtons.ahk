@@ -1,3 +1,5 @@
+#Include *i include/TrayIconOnCapsLock.ahk
+
 ; Wheel horizontal scroll -> Browser navigation
 WheelLeft::Browser_Back
 WheelRight::Browser_Forward
