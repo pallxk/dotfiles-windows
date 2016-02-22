@@ -1,4 +1,5 @@
 beyondcompare
+conemu
 git
 nirlauncher
 sysinternals
