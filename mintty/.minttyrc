@@ -1,8 +1,10 @@
 BoldAsColour=yes
 BoldAsFont=yes
+Columns=120
 CursorType=block
 Font=Consolas
 FontHeight=12
+Rows=30
 Scrollbar=none
 Term=xterm-256color
 ZoomShortcuts=no
