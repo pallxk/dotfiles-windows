@@ -962,7 +962,7 @@
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-#freetype-font=Arial
+freetype-font=Microsoft YaHei UI
 
 # Monospace Font (string)
 #freetype-monofont=Courier New
@@ -2227,10 +2227,10 @@ qt-privacy-ask=0
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options. (string)
 #sout-x264-options=
