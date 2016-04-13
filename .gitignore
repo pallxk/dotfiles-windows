@@ -1,3 +1,5 @@
 # vlc
 vlc/*
 !vlc/vlcrc
+# Notepad++
+/Notepad++/backup/
