@@ -1,7 +1,11 @@
 @echo off
-SETLOCAL
+SETLOCAL EnableDelayedExpansion
 
 @REM Show who is logged on via RDP.
+@REM
+@REM Usage:
+@REM   rdpwho [hostname]
+@REM   rdpwho [\\hostname]
 
 
 IF "%1" EQU "" (
@@ -19,6 +23,12 @@ IF "%1" EQU "" (
 	)
 
 	SET exec=psexec
+
+	REM Prepend "\\" if not provided
+	SET host=%1
+	IF "!host:~0,2!" NEQ "\\" (
+		SET host=\\!host!
+	)
 )
 
-%exec% %1 netstat | findstr :3389
+%exec% %host% netstat | findstr :3389
