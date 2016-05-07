@@ -1,4 +1,5 @@
 {
-    "fonts.fontSize": "12px",
-    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace"
+    "fonts.fontSize": "14px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "themes.theme": "dark-theme"
 }
