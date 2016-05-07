@@ -2,5 +2,6 @@
     "fonts.fontSize": "14px",
     "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
     "proxy": "http://localhost:1080/",
-    "themes.theme": "dark-theme"
+    "themes.theme": "dark-theme",
+    "me.drewh.jsbeautify.on_save": false
 }
