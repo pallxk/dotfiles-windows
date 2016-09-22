@@ -32,4 +32,7 @@ IF "%1" NEQ "" (
 	)
 )
 
-%exec% %host% netstat | findstr :3389
+REM Remote Desktop Services uses port 3389 (ms-wbt-server)
+REM Use `-n` for `netstat` to avoid DNS lookup
+REM `:3389.*:` ensures only port number in 'Local Address' part is matched against
+%exec% %host% netstat -n | findstr /R :3389.*:
