@@ -8,10 +8,11 @@ SETLOCAL EnableDelayedExpansion
 @REM   rdpwho [\\hostname]
 
 
-IF "%1" EQU "" (
-	REM Running against localhost
-	SET exec=
-) ELSE (
+REM Running against localhost by default
+SET exec=
+SET host=
+
+IF "%1" NEQ "" (
 	REM Running against remote host
 
 	REM Check dependency: psexec
