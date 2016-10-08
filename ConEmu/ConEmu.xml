@@ -8,7 +8,7 @@
 <key name="Software">
 	<key name="ConEmu">
 		<!-- Main configuration (/config argument is not specified) -->
-		<key name=".Vanilla" modified="2016-04-04 15:52:50" build="160329">
+		<key name=".Vanilla" modified="2016-10-08 20:48:44" build="161002">
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="UseInjects" type="hex" data="01"/>
@@ -558,9 +558,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2016-02-23 12:06:29" build="160219">
+			<key name="Tasks" modified="2016-10-08 20:48:44" build="161002">
 				<value name="Count" type="long" data="16"/>
-				<key name="Task1" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task1" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
 					<value name="Flags" type="dword" data="00000002"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -569,7 +569,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task2" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task2" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -578,7 +578,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task3" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task3" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -587,7 +587,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task4" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task4" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -597,7 +597,7 @@
 					<value name="Active" type="long" data="1"/>
 					<value name="Count" type="long" data="2"/>
 				</key>
-				<key name="Task5" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task5" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -606,7 +606,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task6" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task6" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -615,7 +615,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task7" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task7" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Bash::CygWin.bat}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -624,7 +624,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task8" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task8" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Bash::CygWin bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -633,7 +633,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task9" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task9" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -642,7 +642,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task10" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task10" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Helper::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -651,7 +651,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task11" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task11" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{SDK::VS 10.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -660,7 +660,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task12" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task12" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{SDK::VS 11.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -669,7 +669,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task13" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task13" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{SDK::VS 12.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -678,7 +678,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task14" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task14" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{SDK::VS 8.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -687,7 +687,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task15" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task15" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{SDK::VS 9.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -696,7 +696,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task16" modified="2016-02-23 12:06:29" build="160219">
+				<key name="Task16" modified="2016-10-08 20:48:44" build="161002">
 					<value name="Name" type="string" data="{Tools::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -706,10 +706,10 @@
 					<value name="Count" type="long" data="1"/>
 				</key>
 			</key>
-			<key name="Apps" modified="2016-02-22 12:10:16" build="160219">
+			<key name="Apps" modified="2016-10-08 20:48:44" build="161002">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2016-02-22 12:10:16" build="160219">
+			<key name="Colors" modified="2016-10-08 20:48:44" build="161002">
 				<value name="Count" type="long" data="0"/>
 			</key>
 			<value name="LastMonitor" type="string" data="0,0,1920,1040"/>
@@ -719,11 +719,13 @@
 			<value name="SuppressBells" type="hex" data="01"/>
 			<value name="Restore2ActiveMon" type="hex" data="01"/>
 			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
-			<value name="EnvironmentSet" type="multi"/>
+			<value name="EnvironmentSet" type="multi">
+				<line data="set PATH=%ConEmuBaseDir%\Scripts;%PATH%"/>
+			</value>
 			<value name="Anti-aliasing2" type="hex" data="00"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
-			<key name="HotKeys" modified="2016-02-22 12:10:16" build="160219">
+			<key name="HotKeys" modified="2016-10-08 20:48:44" build="161002">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -906,7 +908,23 @@
 				<value name="DndLKey" type="hex" data="00"/>
 				<value name="DndRKey" type="hex" data="a2"/>
 				<value name="WndDragKey" type="dword" data="00121101"/>
+				<value name="Key.AltNumpad" type="dword" data="00000000"/>
 			</key>
+			<value name="VividColors" type="hex" data="01"/>
+			<value name="AnsiExecution" type="hex" data="01"/>
+			<value name="AnsiAllowedCommands" type="multi">
+				<line data="cmd -cur_console:R /cGitShowBranch.cmd"/>
+			</value>
+			<value name="KillSshAgent" type="hex" data="01"/>
+			<value name="JumpListAutoUpdate" type="hex" data="01"/>
+			<value name="CompressLongStrings" type="hex" data="01"/>
+			<value name="CTS.ResetOnRelease" type="hex" data="00"/>
+			<value name="CTS.EraseBeforeReset" type="hex" data="01"/>
+			<value name="UseAltGrayPlus" type="hex" data="01"/>
+			<value name="MouseDragWindow" type="hex" data="01"/>
+			<value name="DebugLog" type="hex" data="00"/>
+			<value name="StatusBar.Hide.TMode" type="hex" data="01"/>
+			<value name="StatusBar.Hide.RMode" type="hex" data="01"/>
 		</key>
 
 		<!-- Named configurations (choosed by /config argument) are placed in subkeys -->
