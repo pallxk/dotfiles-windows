@@ -8,14 +8,14 @@
 <key name="Software">
 	<key name="ConEmu">
 		<!-- Main configuration (/config argument is not specified) -->
-		<key name=".Vanilla" modified="2016-10-08 20:48:44" build="161002">
+		<key name=".Vanilla" modified="2016-10-31 23:27:15" build="161002">
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="UseInjects" type="hex" data="01"/>
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
-			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="03"/>
+			<value name="Update.ConfirmDownload" type="hex" data="00"/>
+			<value name="Update.UseBuilds" type="hex" data="01"/>
 			<value name="FontUseDpi" type="hex" data="01"/>
 			<value name="FontUseUnits" type="hex" data="01"/>
 			<value name="FontSize" type="ulong" data="16"/>
@@ -80,11 +80,11 @@
 			<value name="ClipboardEOL" type="hex" data="00"/>
 			<value name="ClipboardArrowStart" type="hex" data="01"/>
 			<value name="ClipboardAllLines" type="hex" data="01"/>
-			<value name="ClipboardFirstLine" type="hex" data="01"/>
+			<value name="ClipboardFirstLine" type="hex" data="00"/>
 			<value name="ClipboardClickPromptPosition" type="hex" data="02"/>
 			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
 			<value name="TrueColorerSupport" type="hex" data="01"/>
-			<value name="FadeInactive" type="hex" data="01"/>
+			<value name="FadeInactive" type="hex" data="00"/>
 			<value name="FadeInactiveLow" type="hex" data="00"/>
 			<value name="FadeInactiveHigh" type="hex" data="d0"/>
 			<value name="ConVisible" type="hex" data="00"/>
@@ -151,7 +151,7 @@
 			<value name="UserScreenTransparent" type="hex" data="00"/>
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
-			<value name="UseCurrentSizePos" type="hex" data="01"/>
+			<value name="UseCurrentSizePos" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
 			<value name="ConWnd Width" type="dword" data="00000078"/>
 			<value name="ConWnd Height" type="dword" data="0000001e"/>
@@ -159,9 +159,9 @@
 			<value name="ConWnd X" type="long" data="417"/>
 			<value name="ConWnd Y" type="long" data="-3"/>
 			<value name="16bit Height" type="ulong" data="0"/>
-			<value name="AutoSaveSizePos" type="hex" data="01"/>
+			<value name="AutoSaveSizePos" type="hex" data="00"/>
 			<value name="IntegralSize" type="hex" data="00"/>
-			<value name="QuakeStyle" type="hex" data="01"/>
+			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="ulong" data="0"/>
 			<value name="HideCaption" type="hex" data="00"/>
 			<value name="HideChildCaption" type="hex" data="01"/>
@@ -222,7 +222,7 @@
 			<value name="SendAltPrintScrn" type="hex" data="00"/>
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
-			<value name="Min2Tray" type="hex" data="01"/>
+			<value name="Min2Tray" type="hex" data="00"/>
 			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
