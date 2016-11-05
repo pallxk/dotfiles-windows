@@ -1,8 +1,10 @@
 # Everything
-Everything/*
-!Everything/Everything.ini
-# vlc
-vlc/*
-!vlc/vlcrc
+/Everything/*
+!/Everything/Everything.ini
+
 # Notepad++
 /Notepad++/backup/
+
+# vlc
+/vlc/*
+!/vlc/vlcrc
