@@ -6,7 +6,7 @@
         <!-- 2 status : "show" or "hide"-->
         <GUIConfig name="StatusBar">show</GUIConfig>
         <!-- For all attributs, 2 status : "yes" or "no"-->
-        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="yes" hide="no" />
+        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="yes" doubleClick2Close="no" vertical="no" multiLine="yes" hide="no" quitOnEmpty="no" />
         <!-- 2 positions : "horizontal" or "vertical"-->
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <!-- For the attribut of position, 2 status : docked or undocked ; 2 status : "show" or "hide" -->
@@ -17,7 +17,7 @@
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="line" edgeNbColumn="80" wrapSymbolShow="show" zoom="0" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="0" borderWidth="0" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="line" edgeNbColumn="80" wrapSymbolShow="show" zoom="0" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" disableAdvancedScrolling="no" borderEdge="yes" zoom2="0" borderWidth="0" smoothFont="no" scrollBeyondLastLine="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -59,25 +59,25 @@
         <!--
 			value 0 for the folloing parameters means invisible :
 			leftWidth, topHight, rightWidth, bottomHight
-			
+
 					position value for the PluginDlg:
-						
+
 						0 : left
 						 1 : right
 						2 : top
 						3 : bottom
 						>= 4 : undocked -> FloatingWindow id
 			-->
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20160428">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20161120">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">no</GUIConfig>
         <GUIConfig name="URL">2</GUIConfig>
         <GUIConfig name="globalOverride" fg="no" bg="no" font="yes" fontSize="yes" bold="no" italic="no" underline="no" />
-        <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" funcParams="yes" />
+        <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" funcParams="yes" autoCIgnoreNumbers="yes" />
         <GUIConfig name="auto-insert" parentheses="no" brackets="no" curlyBrackets="no" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="sessionExt"></GUIConfig>
-        <GUIConfig name="SmartHighLight">yes</GUIConfig>
+        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no">yes</GUIConfig>
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
         <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="yes">yes</GUIConfig>
         <GUIConfig name="DetectEncoding">yes</GUIConfig>
@@ -88,7 +88,8 @@
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
-        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" />
+        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" />
+        <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
