@@ -1,3 +1,6 @@
+# Everything
+Everything/*
+!Everything/Everything.ini
 # vlc
 vlc/*
 !vlc/vlcrc
