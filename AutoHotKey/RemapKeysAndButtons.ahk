@@ -1,4 +1,5 @@
 #Include *i include/TrayIconOnCapsLock.ahk
+#SingleInstance force
 
 ; Wheel horizontal scroll -> Browser navigation
 WheelLeft::Browser_Back

@@ -1,5 +1,6 @@
 #Include *i include/TrayIconOnCapsLock.ahk
 #NoEnv
+#SingleInstance force
 GetDisplayBrightness(Minimum, Current, Maximum) ; aktuelle Einstellungen abrufen
 ;MsgBox, 0, Bildschirmhelligkeit, Minimum = %Minimum%`nAktuell = %Current%`nMaximum = %Maximum%
 Return

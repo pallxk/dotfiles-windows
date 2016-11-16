@@ -19,6 +19,7 @@
 ; click rather than holding it down the whole time.
 
 #Include *i include/TrayIconOnCapsLock.ahk
+#SingleInstance force
 
 If (A_AhkVersion < "1.0.39.00")
 {
