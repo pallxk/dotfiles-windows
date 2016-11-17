@@ -8,7 +8,7 @@
 <key name="Software">
 	<key name="ConEmu">
 		<!-- Main configuration (/config argument is not specified) -->
-		<key name=".Vanilla" modified="2016-11-04 20:56:22" build="161022">
+		<key name=".Vanilla" modified="2016-11-18 00:57:36" build="161022">
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="UseInjects" type="hex" data="01"/>
@@ -324,7 +324,7 @@
 			<value name="ShowFarWindows" type="hex" data="01"/>
 			<value name="TryToCenter" type="hex" data="01"/>
 			<value name="CenterConsolePad" type="ulong" data="0"/>
-			<value name="ShowScrollbar" type="hex" data="02"/>
+			<value name="ShowScrollbar" type="hex" data="00"/>
 			<value name="ScrollBarAppearDelay" type="ulong" data="100"/>
 			<value name="ScrollBarDisappearDelay" type="ulong" data="300"/>
 			<value name="IconID" type="ulong" data="1"/>
@@ -734,7 +734,7 @@
 			<value name="Anti-aliasing2" type="hex" data="01"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
-			<key name="HotKeys" modified="2016-11-04 20:56:22" build="161022">
+			<key name="HotKeys" modified="2016-11-18 00:59:11" build="161022">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -829,15 +829,15 @@
 				<value name="Key.DebugProcess" type="dword" data="00105b44"/>
 				<value name="Key.DumpProcess" type="dword" data="00000000"/>
 				<value name="Key.DumpTree" type="dword" data="00000000"/>
-				<value name="Key.BufUp" type="dword" data="00001126"/>
-				<value name="Key.BufDn" type="dword" data="00001128"/>
-				<value name="Key.BufPgUp" type="dword" data="00001121"/>
-				<value name="Key.BufPgDn" type="dword" data="00001122"/>
+				<value name="Key.BufUp" type="dword" data="00001026"/>
+				<value name="Key.BufDn" type="dword" data="00001028"/>
+				<value name="Key.BufPgUp" type="dword" data="00001021"/>
+				<value name="Key.BufPgDn" type="dword" data="00001022"/>
 				<value name="Key.BufHfPgUp" type="dword" data="00005d21"/>
 				<value name="Key.BufHfPgDn" type="dword" data="00005d22"/>
-				<value name="Key.BufTop" type="dword" data="00005d24"/>
+				<value name="Key.BufTop" type="dword" data="00001024"/>
 				<value name="Key.BufBottom" type="dword" data="00005d23"/>
-				<value name="Key.BufCursor" type="dword" data="00005d08"/>
+				<value name="Key.BufCursor" type="dword" data="00001023"/>
 				<value name="Key.ResetTerm" type="dword" data="00000000"/>
 				<value name="FontLargerKey" type="dword" data="000011d0"/>
 				<value name="FontSmallerKey" type="dword" data="000011d1"/>
