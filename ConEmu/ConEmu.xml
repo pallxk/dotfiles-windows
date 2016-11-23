@@ -734,7 +734,7 @@
 			<value name="Anti-aliasing2" type="hex" data="01"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
-			<key name="HotKeys" modified="2016-11-18 00:59:11" build="161022">
+			<key name="HotKeys" modified="2016-11-23 12:03:43" build="161022">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -747,8 +747,8 @@
 				<value name="SetFocusGui" type="dword" data="00000000"/>
 				<value name="SetFocusChild" type="dword" data="00000000"/>
 				<value name="ChildSystemMenu" type="dword" data="00000000"/>
-				<value name="Multi.NewConsole" type="dword" data="00005b57"/>
-				<value name="Multi.NewConsoleShift" type="dword" data="00105b57"/>
+				<value name="Multi.NewConsole" type="dword" data="00005b54"/>
+				<value name="Multi.NewConsoleShift" type="dword" data="00105b54"/>
 				<value name="Multi.CmdKey" type="dword" data="00005b58"/>
 				<value name="Multi.NewWindow" type="dword" data="00000000"/>
 				<value name="Multi.NewConsolePopup" type="dword" data="00005b4e"/>
@@ -767,8 +767,8 @@
 				<value name="Multi.SplitFocusD" type="dword" data="00005d28"/>
 				<value name="Multi.SplitFocusL" type="dword" data="00005d25"/>
 				<value name="Multi.SplitFocusR" type="dword" data="00005d27"/>
-				<value name="Multi.Next" type="dword" data="00005b51"/>
-				<value name="Multi.NextShift" type="dword" data="00105b51"/>
+				<value name="Multi.Next" type="dword" data="00105b09"/>
+				<value name="Multi.NextShift" type="dword" data="00005b09"/>
 				<value name="Multi.Recreate" type="dword" data="00005bc0"/>
 				<value name="Multi.AltCon" type="dword" data="00005b41"/>
 				<value name="Multi.Pause" type="dword" data="80808013"/>
@@ -776,14 +776,14 @@
 				<value name="Multi.GroupInput" type="dword" data="00005d47"/>
 				<value name="Multi.Detach" type="dword" data="00000000"/>
 				<value name="Multi.Unfasten" type="dword" data="00000000"/>
-				<value name="Multi.Close" type="dword" data="00005b2e"/>
+				<value name="Multi.Close" type="dword" data="00005b57"/>
 				<value name="CloseTabKey" type="dword" data="00125b2e"/>
 				<value name="CloseGroupKey" type="dword" data="00115b2e"/>
 				<value name="CloseGroupPrcKey" type="dword" data="00000000"/>
 				<value name="CloseAllConKey" type="dword" data="00000000"/>
 				<value name="CloseZombiesKey" type="dword" data="00000000"/>
 				<value name="CloseExceptConKey" type="dword" data="00000000"/>
-				<value name="KillProcessKey" type="dword" data="00000000"/>
+				<value name="KillProcessKey" type="dword" data="00005b51"/>
 				<value name="KillAllButShellKey" type="dword" data="00105b2e"/>
 				<value name="DuplicateRootKey" type="dword" data="00005b53"/>
 				<value name="CloseConEmuKey" type="dword" data="00005b73"/>
