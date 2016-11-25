@@ -578,18 +578,18 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task3" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task3" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&quot;%windir%\syswow64\cmd.exe&quot; /k &quot;%ConEmuBaseDir%\CmdInit.cmd&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task4" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task4" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt; &quot;%windir%\system32\cmd.exe&quot; /k &quot;&quot;%ConEmuBaseDir%\CmdInit.cmd&quot; &amp; echo This is Native cmd.exe&quot;"/>
@@ -597,7 +597,7 @@
 					<value name="Active" type="long" data="1"/>
 					<value name="Count" type="long" data="2"/>
 				</key>
-				<key name="Task5" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task5" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -606,7 +606,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task6" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task6" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -615,7 +615,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task7" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task7" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Bash::WSL bash}"/>
 					<value name="Flags" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -624,7 +624,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task8" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task8" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Bash::CygWin.bat}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -633,16 +633,16 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task9" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task9" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Bash::CygWin bash}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="set TERM=cygwin &amp; set CHERE_INVOKING=1 &amp; %ConEmuDrive%\cygwin64\bin\bash.exe --login -i -new_console:C:&quot;%ConEmuDrive%\cygwin64\Cygwin.ico&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task10" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task10" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -651,16 +651,16 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task11" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task11" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Helper::Show ANSI colors}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="cmd.exe /k type &quot;%ConEmuBaseDir%\Addons\AnsiColors16t.ans&quot; -cur_console:n"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task12" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task12" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{SDK::VS 14.0 x86 tools prompt}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -669,52 +669,52 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task13" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task13" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{SDK::VS 12.0 x86 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="%comspec% /k &quot;&quot;%VS120COMNTOOLS%\VsDevCmd.bat&quot;&quot; -new_console:t:&quot;VS 12.0&quot; -new_console:C:&quot;%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,28&quot; -new_console:d:&quot;%VS120COMNTOOLS%\..\..\&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task14" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task14" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{SDK::VS 11.0 x86 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="%comspec% /k &quot;&quot;%VS110COMNTOOLS%\VsDevCmd.bat&quot;&quot; -new_console:t:&quot;VS 11.0&quot; -new_console:C:&quot;%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,23&quot; -new_console:d:&quot;%VS110COMNTOOLS%\..\..\&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task15" modified="2016-11-25 12:00:36" build="161022">
+				<key name="Task15" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{SDK::VS 10.0 x86 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="%comspec% /k &quot;&quot;%VS100COMNTOOLS%\..\..\VC\vcvarsall.bat&quot;&quot; x86 -new_console:t:&quot;VS 10.0&quot; -new_console:C:&quot;%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,16&quot; -new_console:d:&quot;%VS100COMNTOOLS%\..\..\VC\&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task16" modified="2016-11-25 12:06:38" build="161022">
+				<key name="Task16" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{SDK::VS 9.0 x86 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="%comspec% /k &quot;&quot;%VS90COMNTOOLS%\..\..\VC\vcvarsall.bat&quot;&quot; x86 -new_console:t:&quot;VS 9.0&quot; -new_console:C:&quot;%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,10&quot; -new_console:d:&quot;%VS90COMNTOOLS%\..\..\VC\&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task17" modified="2016-11-25 12:06:38" build="161022">
+				<key name="Task17" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{SDK::VS 8.0 x86 tools prompt}"/>
-					<value name="Flags" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="%comspec% /k &quot;&quot;%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat&quot;&quot; x86 -new_console:t:&quot;VS 8.0&quot; -new_console:C:&quot;%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,4&quot; -new_console:d:&quot;%VS80COMNTOOLS%\..\..\VC\&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task18" modified="2016-11-25 12:06:38" build="161022">
+				<key name="Task18" modified="2016-11-25 12:18:03" build="161022">
 					<value name="Name" type="string" data="{Tools::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
