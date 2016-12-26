@@ -786,7 +786,7 @@
 				<value name="Multi.SplitFocusL" type="dword" data="00005d25"/>
 				<value name="Multi.SplitFocusR" type="dword" data="00005d27"/>
 				<value name="Multi.Next" type="dword" data="00105b09"/>
-				<value name="Multi.NextShift" type="dword" data="00005b09"/>
+				<value name="Multi.NextShift" type="dword" data="00000000"/>
 				<value name="Multi.Recreate" type="dword" data="00005bc0"/>
 				<value name="Multi.AltCon" type="dword" data="00005b41"/>
 				<value name="Multi.Pause" type="dword" data="80808013"/>
