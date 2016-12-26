@@ -23,7 +23,7 @@ IF "%1" NEQ "" (
 		exit /b 1
 	)
 
-	SET exec=psexec
+	SET exec=psexec -accepteula
 
 	REM Prepend "\\" if not provided
 	SET host=%1
