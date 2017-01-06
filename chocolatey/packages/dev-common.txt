@@ -1,5 +1,6 @@
 beyondcompare
 conemu
 git
+git-lfs
 nirlauncher
 sysinternals
