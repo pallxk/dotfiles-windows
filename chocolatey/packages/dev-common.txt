@@ -2,5 +2,6 @@ beyondcompare
 conemu
 git
 git-lfs
+gitextensions
 nirlauncher
 sysinternals
