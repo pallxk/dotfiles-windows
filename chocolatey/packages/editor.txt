@@ -1,2 +1,3 @@
 notepadplusplus
 vim
+visualstudiocode
