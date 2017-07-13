@@ -1,0 +1,4 @@
+[submodule "Notepad++/markdown-plus-plus"]
+	path = Notepad++/markdown-plus-plus
+	url = https://github.com/Edditoria/markdown-plus-plus.git
+	ignore = dirty
