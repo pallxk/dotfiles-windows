@@ -12,3 +12,6 @@ for %%i in (*.txt) do (
 )
 
 popd
+
+echo Finished.
+pause

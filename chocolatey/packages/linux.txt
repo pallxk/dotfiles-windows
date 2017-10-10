@@ -1,4 +1,2 @@
 bitvise-ssh-client
 cygwin
-cyg-get
-tigervnc
