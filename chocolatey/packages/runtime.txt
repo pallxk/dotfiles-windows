@@ -2,3 +2,4 @@ jre8
 python
 python2
 nodejs
+yarn
