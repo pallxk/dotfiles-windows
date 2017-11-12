@@ -761,11 +761,11 @@
 			<value name="Anti-aliasing2" type="hex" data="01"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
-			<key name="HotKeys" modified="2017-11-11 16:07:46" build="171109">
+			<key name="HotKeys" modified="2017-11-11 17:04:32" build="171109">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
-				<value name="MinimizeRestore" type="dword" data="000011c0"/>
+				<value name="MinimizeRestore" type="dword" data="00000000"/>
 				<value name="MinimizeRestore2" type="dword" data="00000000"/>
 				<value name="GlobalRestore" type="dword" data="00000000"/>
 				<value name="CdExplorerPath" type="dword" data="00000000"/>
